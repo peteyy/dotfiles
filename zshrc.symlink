@@ -56,6 +56,5 @@ hash kubectl 2> /dev/null && source <(kubectl completion zsh)
 
 alias tmuxn='tmux new-session -t $(basename $PWD)'
 alias mux="tmuxinator"
-alias ls="ls --color=auto"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
